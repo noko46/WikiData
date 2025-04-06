@@ -25,7 +25,7 @@ def extract_entities(text):
         for ent in doc.ents
     ]
 
-# Wikidata reconciliation
+# Get Wikidata iDs
 @lru_cache(maxsize=1000)  # Cache results to avoid duplicate queries
 def get_wikidata_id(entity_text, retries=3):
     # Clean entity text
@@ -59,11 +59,9 @@ def get_wikidata_id(entity_text, retries=3):
                 continue
             print(f"Failed to query Wikidata for '{clean_text}': {str(e)}")
             return None
+        
 
-
-# --------------------------
-# 4. RDF Generation
-# --------------------------
+# RDF
 def create_rdf_graph(entities):
     EX = Namespace("http://example.org/ontology/")
     WD = Namespace("http://www.wikidata.org/entity/")
@@ -90,9 +88,7 @@ def create_rdf_graph(entities):
     
     return g
 
-# --------------------------
-# Main Pipeline
-# --------------------------
+# Calling functions - pipeline
 if __name__ == "__main__":
     # 1. Extract text
     book_text = extract_text_from_url(
@@ -111,11 +107,6 @@ if __name__ == "__main__":
     graph = create_rdf_graph(entities)
     graph.serialize("entities.ttl", format="turtle")
     print("RDF graph saved to entities.ttl")
-    
-    # 4. Visualize Graph
-
-   
-
-    # Example Wikidata lookup
+    # Example Wikidata lookup from entities recognized
     print("Wikidata ID for 'Fyodor Dostoevsky':", get_wikidata_id("Fyodor Dostoevsky"))
     print("Wikidata ID for 'Constance Garnett':", get_wikidata_id("Constance Garnett"))
