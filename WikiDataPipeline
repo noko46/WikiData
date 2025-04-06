@@ -1,0 +1,121 @@
+import requests
+from bs4 import BeautifulSoup
+import spacy
+from rdflib import Graph, Namespace, URIRef
+from urllib.parse import quote
+from wikidataintegrator import wdi_core
+import time
+from functools import lru_cache
+
+# text extraction function
+def extract_text_from_url(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, "html.parser")
+        pre_tag = soup.find("pre")
+        return pre_tag.get_text() if pre_tag else None
+    return None
+
+# convert into doc object and named entity recognition
+def extract_entities(text):
+    nlp = spacy.load("en_core_web_sm")
+    doc = nlp(text)
+    return [
+        {"text": ent.text, "label": ent.label_, "start": ent.start_char, "end": ent.end_char}
+        for ent in doc.ents
+    ]
+
+# Wikidata reconciliation
+@lru_cache(maxsize=1000)  # Cache results to avoid duplicate queries
+def get_wikidata_id(entity_text, retries=3):
+    # Clean entity text
+    clean_text = entity_text.replace("\n", " ").strip()
+    if not clean_text:
+        return None
+    
+    # Fuzzy search using MediaWiki API
+    query = f'''
+    SELECT ?item WHERE {{
+      SERVICE wikibase:mwapi {{
+        bd:serviceParam wikibase:api "EntitySearch";
+                         wikibase:endpoint "www.wikidata.org";
+                         mwapi:search "{clean_text}";
+                         mwapi:language "en".
+        ?item wikibase:apiOutputItem mwapi:item.
+      }}
+    }}
+    LIMIT 1
+    '''
+    
+    for attempt in range(retries):
+        try:
+            results = wdi_core.WDItemEngine.execute_sparql_query(query)
+            if results["results"]["bindings"]:
+                return results["results"]["bindings"][0]["item"]["value"].split("/")[-1]
+            return None
+        except Exception as e:
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)  # Exponential backoff
+                continue
+            print(f"Failed to query Wikidata for '{clean_text}': {str(e)}")
+            return None
+
+
+# --------------------------
+# 4. RDF Generation
+# --------------------------
+def create_rdf_graph(entities):
+    EX = Namespace("http://example.org/ontology/")
+    WD = Namespace("http://www.wikidata.org/entity/")
+    RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+    
+    g = Graph()
+    g.bind("ex", EX)
+    g.bind("wd", WD)
+
+    
+    
+    for e in entities:
+        # Clean and encode entity text
+        clean_text = quote(e["text"].replace(" ", "_"), safe='')
+        entity_uri = URIRef(EX[clean_text])
+        
+        # Add type triple
+        g.add((entity_uri, RDF.type, EX[e["label"]]))
+        
+        # Link to Wikidata
+        wikidata_id = get_wikidata_id(e["text"])
+        if wikidata_id:
+            g.add((entity_uri, EX.wikidataLink, URIRef(WD[wikidata_id])))
+    
+    return g
+
+# --------------------------
+# Main Pipeline
+# --------------------------
+if __name__ == "__main__":
+    # 1. Extract text
+    book_text = extract_text_from_url(
+        "https://archive.org/stream/whitenights0000dost/whitenights0000dost_djvu.txt"
+    )
+    
+    if not book_text:
+        print("Failed to extract text")
+        exit()
+    
+    # 2. Extract entities
+    entities = extract_entities(book_text)
+    print(f"Extracted {len(entities)} entities. Sample:", entities[:5])
+    
+    # 3. Generate RDF
+    graph = create_rdf_graph(entities)
+    graph.serialize("entities.ttl", format="turtle")
+    print("RDF graph saved to entities.ttl")
+    
+    # 4. Visualize Graph
+
+   
+
+    # Example Wikidata lookup
+    print("Wikidata ID for 'Fyodor Dostoevsky':", get_wikidata_id("Fyodor Dostoevsky"))
+    print("Wikidata ID for 'Constance Garnett':", get_wikidata_id("Constance Garnett"))
