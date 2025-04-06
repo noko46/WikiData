@@ -1,0 +1,828 @@
+@prefix ex: <http://example.org/ontology/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<http://example.org/ontology/%D8%B1%D8%B1%E2%80%8E> a ex:ORG ;
+    ex:wikidataLink wd:Q44461 .
+
+<http://example.org/ontology/%D8%B3%D9%86%D8%A7%E2%80%8E> a ex:ORG ;
+    ex:wikidataLink wd:Q2570643 .
+
+<http://example.org/ontology/%D9%A2> a ex:CARDINAL ;
+    ex:wikidataLink wd:Q200 .
+
+<http://example.org/ontology/%D9%A2%DB%B3%D9%A2%DB%B6> a ex:DATE ;
+    ex:wikidataLink wd:Q19242149 .
+
+<http://example.org/ontology/%DB%B8> a ex:CARDINAL ;
+    ex:wikidataLink wd:Q23355 .
+
+ex:05 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q55811883 .
+
+ex:09_December_2020 a ex:DATE .
+
+ex:1 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q199 .
+
+ex:111 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q716860 .
+
+ex:13 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q37141 .
+
+ex:14_%0A%0A%0AWHITE_NIGHTS a ex:DATE .
+
+ex:15 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q38701 .
+
+ex:16 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q40254 .
+
+ex:166 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q735532 .
+
+ex:17 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q40118 .
+
+ex:1848 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q7647 .
+
+ex:18_%0A%0A%0ASECOND_NIGHT a ex:TIME .
+
+ex:1918 a ex:DATE ;
+    ex:wikidataLink wd:Q2094 .
+
+ex:2 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q200 .
+
+ex:20 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q40292 .
+
+ex:2022 a ex:DATE ;
+    ex:wikidataLink wd:Q49625 .
+
+ex:22 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712488 .
+
+ex:24 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q79988 .
+
+ex:25 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q79986 .
+
+ex:26 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q83264 .
+
+ex:27 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q433353 .
+
+ex:27057370R00 a ex:CARDINAL .
+
+ex:28 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q587465 .
+
+ex:29 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q543929 .
+
+ex:2I a ex:CARDINAL ;
+    ex:wikidataLink wd:Q67328765 .
+
+ex:30 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q42817 .
+
+ex:32 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712701 .
+
+ex:33 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712661 .
+
+ex:34 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712639 .
+
+ex:35 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q434712 .
+
+ex:36 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712794 .
+
+ex:37 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712770 .
+
+ex:38 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q600809 .
+
+ex:39 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712782 .
+
+ex:4 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q202 .
+
+ex:40 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q42317 .
+
+ex:41 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q12564 .
+
+ex:43 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q282113 .
+
+ex:44 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712706 .
+
+ex:45 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q627861 .
+
+ex:46_%0A%0A%0A a ex:TIME ;
+    ex:wikidataLink wd:Q712744 .
+
+ex:47 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712687 .
+
+ex:49 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712758 .
+
+ex:5 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q203 .
+
+ex:50 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712519 .
+
+ex:52 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712995 .
+
+ex:53 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712808 .
+
+ex:54 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q290669 .
+
+ex:55 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q686819 .
+
+ex:56 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q522994 .
+
+ex:57 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713133 .
+
+ex:58_%0A%0A%0ATHIRD a ex:MONEY .
+
+ex:5I a ex:CARDINAL ;
+    ex:wikidataLink wd:Q24841164 .
+
+ex:6 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q23488 .
+
+ex:60 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q79998 .
+
+ex:61 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q774689 .
+
+ex:62 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q593966 .
+
+ex:63 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712986 .
+
+ex:64 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q435660 .
+
+ex:65 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q645260 .
+
+ex:66 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712966 .
+
+ex:67 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713157 .
+
+ex:68 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q661982 .
+
+ex:69 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713048 .
+
+ex:7 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q23350 .
+
+ex:71 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q586651 .
+
+ex:72 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q243817 .
+
+ex:73 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713122 .
+
+ex:74 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713143 .
+
+ex:75 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q601660 .
+
+ex:76 a ex:DATE ;
+    ex:wikidataLink wd:Q543190 .
+
+ex:77 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713167 .
+
+ex:78 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713229 .
+
+ex:781482065978 a ex:DATE .
+
+ex:79 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713148 .
+
+ex:8 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q23355 .
+
+ex:81 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q712876 .
+
+ex:82 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713217 .
+
+ex:83 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q713181 .
+
+ex:84 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q279264 .
+
+ex:85_%0A%0A%0AMORNING a ex:MONEY .
+
+ex:87 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q285042 .
+
+ex:88 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q341102 .
+
+ex:89 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q535061 .
+
+ex:8o a ex:CARDINAL ;
+    ex:wikidataLink wd:Q629 .
+
+ex:9 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q19108 .
+
+ex:90 a ex:CARDINAL ;
+    ex:wikidataLink wd:Q239346 .
+
+ex:9I a ex:CARDINAL ;
+    ex:wikidataLink wd:Q24841160 .
+
+ex:A_week_later a ex:DATE ;
+    ex:wikidataLink wd:Q44169728 .
+
+ex:Barannikov%E2%80%99s_%0ABuildings a ex:ORG .
+
+ex:Berezina a ex:GPE ;
+    ex:wikidataLink wd:Q207927 .
+
+ex:Brenda a ex:PERSON ;
+    ex:wikidataLink wd:Q4732148 .
+
+ex:Chinese a ex:NORP ;
+    ex:wikidataLink wd:Q7850 .
+
+ex:Clara_Mowbray a ex:PERSON .
+
+ex:Cleopatra a ex:PERSON ;
+    ex:wikidataLink wd:Q18002300 .
+
+ex:Constance_Garnett a ex:PERSON ;
+    ex:wikidataLink wd:Q2495818 .
+
+ex:Corbin a ex:PERSON ;
+    ex:wikidataLink wd:Q16865748 .
+
+ex:Countess_%0AV._D.s a ex:ORG .
+
+ex:Danton a ex:GPE ;
+    ex:wikidataLink wd:Q21285949 .
+
+ex:Deans a ex:NORP ;
+    ex:wikidataLink wd:Q37431737 .
+
+ex:Dear_Sir a ex:WORK_OF_ART ;
+    ex:wikidataLink wd:Q3020696 .
+
+ex:Diana_Vernon a ex:PERSON ;
+    ex:wikidataLink wd:Q20414497 .
+
+ex:Effie a ex:ORG ;
+    ex:wikidataLink wd:Q42396938 .
+
+ex:Fekla a ex:GPE ;
+    ex:wikidataLink wd:Q15064867 .
+
+ex:First a ex:ORDINAL ;
+    ex:wikidataLink wd:Q28084844 .
+
+ex:Fontanka a ex:ORG ;
+    ex:wikidataLink wd:Q590237 .
+
+ex:French a ex:NORP ;
+    ex:wikidataLink wd:Q150 .
+
+ex:Fyodor a ex:ORG ;
+    ex:wikidataLink wd:Q1422239 .
+
+ex:Fyokla a ex:NORP ;
+    ex:wikidataLink wd:Q4459860 .
+
+ex:GFA a ex:ORG ;
+    ex:wikidataLink wd:Q18025788 .
+
+ex:Good-night a ex:TIME ;
+    ex:wikidataLink wd:Q2732306 .
+
+ex:Good_Heavens a ex:PERSON,
+        ex:WORK_OF_ART ;
+    ex:wikidataLink wd:Q1252238 .
+
+ex:Grandmother a ex:PERSON ;
+    ex:wikidataLink wd:Q9235758 .
+
+ex:Heavens a ex:NORP ;
+    ex:wikidataLink wd:Q37473199 .
+
+ex:Hoffmann a ex:ORG ;
+    ex:wikidataLink wd:Q23907787 .
+
+ex:Hush a ex:PERSON ;
+    ex:wikidataLink wd:Q23044927 .
+
+ex:Huss a ex:PERSON ;
+    ex:wikidataLink wd:Q17562889 .
+
+ex:II a ex:CARDINAL ;
+    ex:wikidataLink wd:Q853584 .
+
+ex:IO a ex:GPE ;
+    ex:wikidataLink wd:Q43448 .
+
+ex:Iam a ex:PERSON ;
+    ex:wikidataLink wd:Q1653033 .
+
+ex:Italy a ex:GPE ;
+    ex:wikidataLink wd:Q38 .
+
+ex:Ivan_Vassilyevitch a ex:PERSON .
+
+ex:Just_a_year a ex:DATE .
+
+ex:Just_a_year_ago a ex:DATE .
+
+ex:Kahle%2FAustin_Foundation a ex:ORG ;
+    ex:wikidataLink wd:Q123411759 .
+
+ex:Kamenny a ex:PERSON ;
+    ex:wikidataLink wd:Q24324797 .
+
+ex:Kazan a ex:GPE ;
+    ex:wikidataLink wd:Q900 .
+
+ex:Ke a ex:ORG ;
+    ex:wikidataLink wd:Q114 .
+
+ex:King_%0ASolomon a ex:ORG .
+
+ex:Kolomna a ex:GPE ;
+    ex:wikidataLink wd:Q133026 .
+
+ex:Krestovsky_%0AIsland a ex:PERSON .
+
+ex:MOUSE a ex:PERSON ;
+    ex:wikidataLink wd:Q83310 .
+
+ex:Madam a ex:PERSON ;
+    ex:wikidataLink wd:Q188965 .
+
+ex:Matrona a ex:GPE,
+        ex:ORG,
+        ex:PERSON ;
+    ex:wikidataLink wd:Q748433 .
+
+ex:May a ex:DATE ;
+    ex:wikidataLink wd:Q1751954 .
+
+ex:Minna a ex:GPE ;
+    ex:wikidataLink wd:Q8095855 .
+
+ex:Moscow a ex:GPE ;
+    ex:wikidataLink wd:Q649 .
+
+ex:My_Nastenka a ex:PERSON .
+
+ex:Nastenka a ex:PERSON,
+        ex:WORK_OF_ART ;
+    ex:wikidataLink wd:Q61892350 .
+
+ex:Nastenkal a ex:PERSON .
+
+ex:Nevsky a ex:PERSON ;
+    ex:wikidataLink wd:Q63395669 .
+
+ex:Next_%0Aday a ex:DATE .
+
+ex:Next_week a ex:DATE ;
+    ex:wikidataLink wd:Q113540972 .
+
+ex:One a ex:CARDINAL ;
+    ex:wikidataLink wd:Q199 .
+
+ex:Pargolovo a ex:GPE ;
+    ex:wikidataLink wd:Q905431 .
+
+ex:Pavlovsk a ex:PERSON ;
+    ex:wikidataLink wd:Q177888 .
+
+ex:Petersburg a ex:GPE ;
+    ex:wikidataLink wd:Q656 .
+
+ex:Pskov a ex:GPE ;
+    ex:wikidataLink wd:Q2214 .
+
+ex:Pushkin a ex:PERSON ;
+    ex:wikidataLink wd:Q7200 .
+
+ex:Robert_the_Devil a ex:PERSON ;
+    ex:wikidataLink wd:Q1071310 .
+
+ex:Rosina a ex:PERSON ;
+    ex:wikidataLink wd:Q13403839 .
+
+ex:Russian a ex:NORP ;
+    ex:wikidataLink wd:Q7737 .
+
+ex:S%C3%8E a ex:ORG ;
+    ex:wikidataLink wd:Q215 .
+
+ex:SC a ex:ORG ;
+    ex:wikidataLink wd:Q1042 .
+
+ex:Seville a ex:GPE ;
+    ex:wikidataLink wd:Q8717 .
+
+ex:Some_minutes a ex:TIME .
+
+ex:Some_more_years a ex:DATE .
+
+<http://example.org/ontology/St.> a ex:GPE ;
+    ex:wikidataLink wd:Q79007 .
+
+ex:Strange a ex:WORK_OF_ART ;
+    ex:wikidataLink wd:Q16883902 .
+
+ex:The_Barber_of_Seville a ex:WORK_OF_ART ;
+    ex:wikidataLink wd:Q208659 .
+
+ex:UNIU_SO_FLORIDA_%0AWHITE_NIGHTS_%0A%0A%0A a ex:ORG .
+
+ex:USA a ex:GPE ;
+    ex:wikidataLink wd:Q30 .
+
+ex:Unapproachable a ex:PERSON ;
+    ex:wikidataLink wd:Q11791385 .
+
+ex:Voge_Se a ex:PERSON .
+
+ex:Walter_Scott a ex:PERSON ;
+    ex:wikidataLink wd:Q79025 .
+
+ex:Walter_Scott%27s a ex:PERSON ;
+    ex:wikidataLink wd:Q19776213 .
+
+<http://example.org/ontology/Wis.> a ex:GPE ;
+    ex:wikidataLink wd:Q1537 .
+
+ex:Yesterday a ex:DATE ;
+    ex:wikidataLink wd:Q202698 .
+
+ex:Zhukovsky a ex:PERSON ;
+    ex:wikidataLink wd:Q136435 .
+
+ex:a_%0Awet_day a ex:DATE .
+
+ex:a_bad_day a ex:DATE ;
+    ex:wikidataLink wd:Q56086949 .
+
+ex:a_minute a ex:TIME ;
+    ex:wikidataLink wd:Q2026107 .
+
+ex:a_minute_ago a ex:TIME .
+
+ex:a_minute_later a ex:TIME .
+
+ex:a_month a ex:DATE ;
+    ex:wikidataLink wd:Q4003924 .
+
+ex:a_quarter_of_an_hour a ex:DATE .
+
+ex:a_thousand a ex:CARDINAL ;
+    ex:wikidataLink wd:Q13171 .
+
+ex:a_thousand_years a ex:DATE ;
+    ex:wikidataLink wd:Q82123 .
+
+ex:a_whole_hour a ex:TIME .
+
+ex:a_whole_year a ex:DATE ;
+    ex:wikidataLink wd:Q126768521 .
+
+ex:a_year a ex:DATE ;
+    ex:wikidataLink wd:Q463322 .
+
+ex:about_all_night a ex:TIME .
+
+ex:all_%0Aday a ex:DATE .
+
+ex:all_day a ex:DATE ;
+    ex:wikidataLink wd:Q772643 .
+
+ex:all_night a ex:TIME ;
+    ex:wikidataLink wd:Q3612132 .
+
+ex:all_the_%0Ayear a ex:DATE .
+
+ex:almost_half a ex:CARDINAL ;
+    ex:wikidataLink wd:Q36040659 .
+
+ex:an_hour a ex:TIME ;
+    ex:wikidataLink wd:Q108581234 .
+
+ex:another_two_hours a ex:TIME .
+
+ex:da%5E a ex:GPE ;
+    ex:wikidataLink wd:Q9035 .
+
+ex:daily a ex:DATE ;
+    ex:wikidataLink wd:Q86 .
+
+ex:day a ex:DATE ;
+    ex:wikidataLink wd:Q5242796 .
+
+ex:days a ex:DATE ;
+    ex:wikidataLink wd:Q573 .
+
+ex:dreamer a ex:PERSON ;
+    ex:wikidataLink wd:Q57916157 .
+
+ex:dreary_day a ex:DATE ;
+    ex:wikidataLink wd:Q80921280 .
+
+ex:early_morning a ex:TIME ;
+    ex:wikidataLink wd:Q109667766 .
+
+ex:ee%E2%80%8F a ex:PERSON ;
+    ex:wikidataLink wd:Q191 .
+
+ex:eight_years a ex:DATE ;
+    ex:wikidataLink wd:Q108919725 .
+
+ex:evening a ex:TIME ;
+    ex:wikidataLink wd:Q7725 .
+
+ex:every_%0Ahour a ex:TIME .
+
+ex:fifteen a ex:CARDINAL ;
+    ex:wikidataLink wd:Q38701 .
+
+ex:fifteen_years a ex:DATE ;
+    ex:wikidataLink wd:Q55316390 .
+
+ex:first a ex:ORDINAL ;
+    ex:wikidataLink wd:Q28084844 .
+
+ex:forsaken a ex:PERSON ;
+    ex:wikidataLink wd:Q1953627 .
+
+ex:four a ex:CARDINAL ;
+    ex:wikidataLink wd:Q925222 .
+
+ex:gL9-AHV-9O_%2F_%0A%0A%0A a ex:ORG .
+
+ex:grey_outside a ex:ORG .
+
+ex:half a ex:CARDINAL ;
+    ex:wikidataLink wd:Q28144 .
+
+ex:ido a ex:PERSON ;
+    ex:wikidataLink wd:Q1286045 .
+
+ex:just_a_year a ex:DATE .
+
+ex:just_a_year_ago a ex:DATE .
+
+ex:last_night a ex:TIME ;
+    ex:wikidataLink wd:Q22132093 .
+
+ex:last_this_morning a ex:TIME .
+
+ex:last_week a ex:DATE ;
+    ex:wikidataLink wd:Q73934172 .
+
+ex:morning a ex:TIME ;
+    ex:wikidataLink wd:Q37572163 .
+
+ex:morrow a ex:DATE ;
+    ex:wikidataLink wd:Q16877432 .
+
+ex:next_day a ex:DATE ;
+    ex:wikidataLink wd:Q19219634 .
+
+ex:night a ex:TIME ;
+    ex:wikidataLink wd:Q575 .
+
+ex:nights a ex:TIME ;
+    ex:wikidataLink wd:Q146555 .
+
+ex:nine_o%27clock a ex:TIME ;
+    ex:wikidataLink wd:Q4821089 .
+
+ex:o-day a ex:DATE ;
+    ex:wikidataLink wd:Q21493816 .
+
+ex:old_days a ex:DATE ;
+    ex:wikidataLink wd:Q7083833 .
+
+ex:one a ex:CARDINAL ;
+    ex:wikidataLink wd:Q199 .
+
+ex:one%27s_years a ex:DATE .
+
+ex:one_%0Ahour a ex:TIME .
+
+ex:one_%0Amorning a ex:TIME .
+
+ex:one_day a ex:DATE ;
+    ex:wikidataLink wd:Q232161 .
+
+ex:one_hour a ex:TIME ;
+    ex:wikidataLink wd:Q542772 .
+
+ex:one_minute a ex:TIME ;
+    ex:wikidataLink wd:Q2446892 .
+
+ex:one_moment a ex:QUANTITY ;
+    ex:wikidataLink wd:Q1496527 .
+
+ex:one_morning a ex:TIME ;
+    ex:wikidataLink wd:Q65230590 .
+
+ex:only_two a ex:CARDINAL ;
+    ex:wikidataLink wd:Q7094260 .
+
+ex:ottomans a ex:NORP ;
+    ex:wikidataLink wd:Q2359535 .
+
+ex:second a ex:ORDINAL ;
+    ex:wikidataLink wd:Q11574 .
+
+ex:secondly a ex:ORDINAL ;
+    ex:wikidataLink wd:Q33165781 .
+
+ex:seven a ex:CARDINAL ;
+    ex:wikidataLink wd:Q23350 .
+
+ex:seventh a ex:ORDINAL ;
+    ex:wikidataLink wd:Q899412 .
+
+ex:several_minutes a ex:TIME .
+
+ex:so_many_years a ex:DATE ;
+    ex:wikidataLink wd:Q54983520 .
+
+ex:some_minutes a ex:TIME .
+
+ex:summer a ex:DATE ;
+    ex:wikidataLink wd:Q7637249 .
+
+ex:ten a ex:CARDINAL ;
+    ex:wikidataLink wd:Q1509 .
+
+ex:ten_%0Aminutes_ago a ex:TIME .
+
+ex:ten_%0Ao%27clock a ex:TIME .
+
+ex:ten_o%27clock a ex:TIME ;
+    ex:wikidataLink wd:Q119981444 .
+
+ex:ten_o%27clock_on_the_day a ex:TIME .
+
+ex:that_day a ex:DATE ;
+    ex:wikidataLink wd:Q1152516 .
+
+ex:that_hour a ex:TIME .
+
+ex:that_minute a ex:TIME .
+
+ex:the_%0Ayears a ex:DATE .
+
+ex:the_Black_River a ex:LOC ;
+    ex:wikidataLink wd:Q880496 .
+
+ex:the_Celestial_%0A%0A%0AEmpire a ex:ORG .
+
+ex:the_Peterhof_Road a ex:FAC .
+
+ex:the_council_of_the_%0Aprelates a ex:ORG .
+
+ex:the_day a ex:DATE ;
+    ex:wikidataLink wd:Q1186724 .
+
+ex:the_holidays a ex:DATE ;
+    ex:wikidataLink wd:Q14159657 .
+
+ex:the_hour a ex:TIME ;
+    ex:wikidataLink wd:Q1893509 .
+
+ex:the_last_two_%0Ahours a ex:DATE .
+
+ex:the_light_of_day a ex:TIME ;
+    ex:wikidataLink wd:Q16491 .
+
+ex:the_morning a ex:TIME ;
+    ex:wikidataLink wd:Q3811631 .
+
+ex:the_next_twenty-four_hours a ex:DATE .
+
+ex:the_same_hour a ex:TIME .
+
+ex:the_spring a ex:DATE ;
+    ex:wikidataLink wd:Q234600 .
+
+ex:the_third_day a ex:DATE ;
+    ex:wikidataLink wd:Q3227973 .
+
+ex:the_whole_day a ex:DATE ;
+    ex:wikidataLink wd:Q65540458 .
+
+ex:third a ex:ORDINAL ;
+    ex:wikidataLink wd:Q28920122 .
+
+ex:this_day a ex:DATE ;
+    ex:wikidataLink wd:Q527612 .
+
+ex:this_evening a ex:TIME ;
+    ex:wikidataLink wd:Q100549206 .
+
+ex:this_hour a ex:TIME ;
+    ex:wikidataLink wd:Q953055 .
+
+ex:this_minute a ex:TIME .
+
+ex:this_summer a ex:DATE ;
+    ex:wikidataLink wd:Q7786275 .
+
+ex:those_fifteen_years a ex:DATE .
+
+ex:thousand a ex:CARDINAL ;
+    ex:wikidataLink wd:Q43016 .
+
+ex:thousands a ex:CARDINAL ;
+    ex:wikidataLink wd:Q12053618 .
+
+ex:three a ex:CARDINAL ;
+    ex:wikidataLink wd:Q201 .
+
+ex:three_%0Adays a ex:DATE .
+
+ex:three_days a ex:DATE ;
+    ex:wikidataLink wd:Q665944 .
+
+ex:three_whole_days a ex:DATE .
+
+ex:twelve_hundred a ex:CARDINAL ;
+    ex:wikidataLink wd:Q114537971 .
+
+ex:twenty_years a ex:DATE ;
+    ex:wikidataLink wd:Q783270 .
+
+ex:two a ex:CARDINAL ;
+    ex:wikidataLink wd:Q200 .
+
+ex:two_days a ex:DATE ;
+    ex:wikidataLink wd:Q7858909 .
+
+ex:two_minutes a ex:TIME ;
+    ex:wikidataLink wd:Q96411514 .
+
+ex:two_years a ex:DATE ;
+    ex:wikidataLink wd:Q18615082 .
+
+ex:two_years_ago a ex:DATE ;
+    ex:wikidataLink wd:Q22662389 .
+
+ex:week a ex:DATE ;
+    ex:wikidataLink wd:Q23387 .
+
+ex:years a ex:DATE ;
+    ex:wikidataLink wd:Q24564698 .
+
+ex:yesterday a ex:DATE ;
+    ex:wikidataLink wd:Q202698 .
+
